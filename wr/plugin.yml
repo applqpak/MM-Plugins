@@ -1,0 +1,14 @@
+name: WhitelistReason
+version: 1.0.0
+author: applqpak
+api: ["1.0.0"]
+main: applqpak.WhitelistReason.Main
+commands:
+  whitelistreason:
+    description: Core WhitelistReason command.
+    usage: /whitelistreason <version | add | set | enable | disable> <player | message>
+    aliases: ["wr"]
+    permission: whitelistreason.command
+permissions:
+  whitelistreason.command:
+    default: op
