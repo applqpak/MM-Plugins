@@ -1,0 +1,13 @@
+name: UserBio
+version: 1.0.0
+author: applqpak
+api: ["1.0.0"]
+main: applqpak.UserBio.Main
+commands:
+  bio:
+    description: Core UserBio command.
+    usage: /bio <version | set | see> <message | player>
+    permission: userbio.command
+permissions:
+  userbio.command:
+    default: true
