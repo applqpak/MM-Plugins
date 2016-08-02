@@ -1,0 +1,19 @@
+name: WarnPlayer
+version: 1.0.0
+author: applqpak
+api: ["1.0.0"]
+main: applqpak.WarnPlayer.Main
+commands:
+  warn:
+    description: Core WarnPlayer command.
+    usage: /warn <version | player> < reason >
+    permission: warnplayer.command
+  warns:
+    description: Check how many warns a player has.
+    usage: /warns <player>
+    permission: warnplayer.command.warns
+permissions:
+  warnplayer.command:
+    default: op
+  warnplayer.command.warns:
+    default: op
