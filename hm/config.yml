@@ -1,1 +1,30 @@
-
+page_1:
+  message_1: "§e-- §bHelp page 1 of 5 | Type /help 2 for second page §e--"
+  message_2: "§e/tell <player> <message> §a= §bPrivate Message a player."
+  message_3: "§e/op <player> §a= §bGive a player Operator Permissions."
+  message_4: "§e/kick <player> [reason] §a= §bKick a player with an optional reason."
+  message_5: "§e/ban <player> [reason] §a= §bBans a player with an optional reason."
+page_2:
+  message_1: "§e-- §bHelp page 2 of 5 | Type /help 3 for third page §e--"
+  message_2: ""
+  message_3: ""
+  message_4: ""
+  message_5: ""
+page_3:
+  message_1: "§e-- §bHelp page 3 of 5 | Type /help 4 for fourth page §e--"
+  message_2: ""
+  message_3: ""
+  message_4: ""
+  message_5: ""
+page_4:
+  message_1: "§e-- §bHelp page 4 of 5 | Type /help 5 for fifth page §e--"
+  message_2: ""
+  message_3: ""
+  message_4: ""
+  message_5: ""
+page_5:
+  message_1: "§e-- §bHelp page 5 of 5 §e--"
+  message_2: ""
+  message_3: ""
+  message_4: ""
+  message_5: ""
