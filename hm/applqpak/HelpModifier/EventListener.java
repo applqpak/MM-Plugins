@@ -26,9 +26,9 @@ public class EventListener implements Listener
 
     String[] command = event.getMessage().split(" ");
 
-    List page_1 = this.plugin.config.getList("page_1");
+    List p1 = this.plugin.config.getList("page_1");
 
-    String[] page_1 = this.plugin.toS(page_1);
+    String[] page_1 = this.plugin.toS(p1);
 
     Player player = event.getPlayer();
 
@@ -38,7 +38,7 @@ public class EventListener implements Listener
       for(int i = 1; i <= 8; i++)
       {
 
-        player.sendMessage(page_1["message_" + String.valueOf(i)]);
+        player.sendMessage(page_1["message_" + Integer.toString(i)]);
 
       }
 
