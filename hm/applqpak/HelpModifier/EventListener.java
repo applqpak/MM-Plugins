@@ -38,7 +38,7 @@ public class EventListener implements Listener
       for(int i = 1; i <= 8; i++)
       {
 
-        player.sendMessage(page_1["message_" + String.valueOf(i)]);
+        player.sendMessage(page_1[i]);
 
       }
 
