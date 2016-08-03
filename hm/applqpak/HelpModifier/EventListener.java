@@ -32,10 +32,10 @@ public class EventListener implements Listener
 
     Player player = event.getPlayer();
 
-    if(command[0] == "/help" || command[0] == "/?")
+    if(command[0] == "help" || command[0] == "/help" || command[0] == "/?")
     {
 
-      for(int i = 1; i <= 8; i++)
+      for(int i = 0; i <= 7; i++)
       {
 
         player.sendMessage(page_1[i]);
