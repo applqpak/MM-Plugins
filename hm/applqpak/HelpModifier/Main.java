@@ -4,6 +4,7 @@ import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.Config;
 import cn.nukkit.utils.TextFormat;
 
+import java.lang.*;
 import java.io.File;
 
 public class Main extends PluginBase
