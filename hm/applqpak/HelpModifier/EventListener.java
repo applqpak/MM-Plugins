@@ -32,16 +32,7 @@ public class EventListener implements Listener
 
     String[] page_1 = this.plugin.toS(list);
 
-    if(command[0] == "/help" || command[0] == "/?")
-    {
-
-      player.sendMessage("Hi");
-
-      player.sendMessage(page_1[0]);
-
-    }
-
-    event.setCancelled();
+    this.getLogger().info(command[0]);
 
   }
 
