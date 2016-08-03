@@ -1,5 +1,5 @@
 page_1:
- - "§e-- §bHelp page 1 of 5 | Type /help 2 for second page §e--"
+ - "§e-- §bHelp page 1 of 6 | Type /help 2 for second page §e--"
  - "§e/tell <player> <message> §a= §bPrivate Message a player."
  - "§e/op <player> §a= §bGive a player Operator Permissions."
  - "§e/kick <player> [reason] §a= §bKick a player with an optional reason."
@@ -8,7 +8,7 @@ page_1:
  - "§e/banlist [ips] §a= §bDisplays a list of all (IP) banned players."
  - "§e/reload §a= §bReloads all server and plugin config files."
 page_2:
- - "§e-- §bHelp page 2 of 5 | Type /help 3 for third page §e--"
+ - "§e-- §bHelp page 2 of 6 | Type /help 3 for third page §e--"
  - ""
  - ""
  - ""
@@ -17,7 +17,7 @@ page_2:
  - ""
  - ""
 page_3:
- - "§e-- §bHelp page 3 of 5 | Type /help 4 for fourth page §e--"
+ - "§e-- §bHelp page 3 of 6 | Type /help 4 for fourth page §e--"
  - ""
  - ""
  - ""
@@ -26,7 +26,7 @@ page_3:
  - ""
  - ""
 page_4:
- - "§e-- §bHelp page 4 of 5 | Type /help 5 for fifth page §e--"
+ - "§e-- §bHelp page 4 of 6 | Type /help 5 for fifth page §e--"
  - ""
  - ""
  - ""
