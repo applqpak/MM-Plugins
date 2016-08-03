@@ -5,6 +5,8 @@ import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.player.PlayerCommandPreprocessEvent;
 import cn.nukkit.Player;
 
+import java.lang.*;
+
 public class EventListener implements Listener
 {
 
@@ -24,6 +26,10 @@ public class EventListener implements Listener
 
     String[] command = event.getMessage().split(" ");
 
+    List page_1 = this.plugin.config.getList("page_1");
+
+    String[] page_1 = this.plugin.toS(page_1);
+
     Player player = event.getPlayer();
 
     if(command[0] == "/help" || command[0] == "/?")
@@ -32,11 +38,11 @@ public class EventListener implements Listener
       for(int i = 1; i <= 8; i++)
       {
 
-        player.sendMessage(this.plugin.config.getString("page_1.message_" + i));
+        player.sendMessage(page_1["message_" + i]);
 
       }
 
-      event.setCancelled(true);
+      event.setCancelled();
 
     }
 
