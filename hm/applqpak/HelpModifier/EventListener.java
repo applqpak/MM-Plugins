@@ -3,6 +3,7 @@ package applqpak.HelpModifier;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.player.PlayerCommandPreprocessEvent;
+import cn.nukkit.Player;
 
 public class EventListener implements Listener
 {
@@ -20,6 +21,22 @@ public class EventListener implements Listener
 
   public void onPlayerCommandPreprocess(PlayerCommandPreprocessEvent event)
   {
+
+    String[] command = event.getMessage().split(" ");
+
+    Player player = event.getPlayer();
+
+    if(command[0] == "/help" || command[0] == "/?")
+    {
+
+      for(int i = 1; i <= 8; i++)
+      {
+
+        player.sendMessage(this.plugin.config.getString("page_1.message_" + i));
+
+      }
+
+    }
 
   }
 
