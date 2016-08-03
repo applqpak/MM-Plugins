@@ -24,7 +24,7 @@ public class EventListener implements Listener
   public void onPlayerCommandPreprocess(PlayerCommandPreprocessEvent event)
   {
 
-    String[] command = event.getMessage().split(" ");
+    String command = event.getMessage().replace("/", "");
 
     Player player = event.getPlayer();
 
@@ -32,12 +32,16 @@ public class EventListener implements Listener
 
     String[] page_1 = this.plugin.toS(list);
 
-    if(command[0] == "/help")
+    switch(command.toLowerCase())
     {
 
-      this.plugin.getLogger().info(command[0]);
+      case "help":
 
-      event.setCancelled();
+        this.getLogger().info(command);
+
+        event.setCancelled();
+
+      break;
 
     }
 
