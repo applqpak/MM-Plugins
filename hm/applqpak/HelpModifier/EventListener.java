@@ -37,7 +37,12 @@ public class EventListener implements Listener
 
       case "help":
 
-        this.plugin.getLogger().info(command);
+        for(int i = 0; i < 7; i++)
+        {
+
+          player.sendMessage(page_1[i]);
+
+        }
 
         event.setCancelled();
 
