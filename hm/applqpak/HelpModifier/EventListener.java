@@ -30,7 +30,27 @@ public class EventListener implements Listener
 
     List list = this.plugin.config.getList("page_1");
 
+    List list2 = this.plugin.config.getList("page_2");
+
+    List list3 = this.plugin.config.getList("page_3");
+
+    List list4 = this.plugin.config.getList("page_4");
+
+    List list5 = this.plugin.config.getList("page_5");
+
+    List list6 = this.plugin.config.getList("page_6");
+
     String[] page_1 = this.plugin.toS(list);
+
+    String[] page_2 = this.plugin.toS(list2);
+
+    String[] page_3 = this.plugin.toS(list3);
+
+    String[] page_4 = this.plugin.toS(list4);
+
+    String[] page_5 = this.plugin.toS(list5);
+
+    String[] page_6 = this.plugin.toS(list6);
 
     switch(command.toLowerCase())
     {
@@ -41,6 +61,19 @@ public class EventListener implements Listener
         {
 
           player.sendMessage(page_1[i]);
+
+        }
+
+        event.setCancelled();
+
+      break;
+
+      case "help 1":
+
+        for(int i = 0; i < 10; i++)
+        {
+
+          player.sendMessage(page_2[i]);
 
         }
 
