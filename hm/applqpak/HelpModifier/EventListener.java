@@ -26,23 +26,18 @@ public class EventListener implements Listener
 
     String[] command = event.getMessage().split(" ");
 
-    List p1 = this.plugin.config.getList("page_1");
-
-    String[] page_1 = this.plugin.toS(p1);
-
     Player player = event.getPlayer();
 
-    if(command[0] == "help" || command[0] == "/help" || command[0] == "/?")
+    List list = this.plugin.config.getList("page_1");
+
+    String[] page_1 = this.plugin.toS(list);
+
+    if(command[0] == "/help" || command[0] == "/?")
     {
 
-      for(int i = 0; i <= 7; i++)
-      {
+      player.sendMessage("Hi");
 
-        player.sendMessage(page_1[i]);
-
-      }
-
-      event.setCancelled();
+      player.sendMessage(page_1[0]);
 
     }
 
