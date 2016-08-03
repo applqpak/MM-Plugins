@@ -5,7 +5,7 @@ import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.player.PlayerCommandPreprocessEvent;
 import cn.nukkit.Player;
 
-import java.lang.*;
+import java.util.*;
 
 public class EventListener implements Listener
 {
