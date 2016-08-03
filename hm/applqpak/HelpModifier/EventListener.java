@@ -32,7 +32,7 @@ public class EventListener implements Listener
 
     String[] page_1 = this.plugin.toS(list);
 
-    this.getLogger().info(command[0]);
+    this.plugin.getLogger().info(command[0]);
 
   }
 
