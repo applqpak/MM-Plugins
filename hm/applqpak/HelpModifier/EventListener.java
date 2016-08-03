@@ -37,7 +37,7 @@ public class EventListener implements Listener
 
       case "help":
 
-        this.getLogger().info(command);
+        this.plugin.getLogger().info(command);
 
         event.setCancelled();
 
