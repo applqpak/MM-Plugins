@@ -57,6 +57,8 @@ public class EventListener implements Listener
 
       case "help":
 
+      case "help 1":
+
         for(int i = 0; i < 7; i++)
         {
 
@@ -68,12 +70,64 @@ public class EventListener implements Listener
 
       break;
 
-      case "help 1":
+      case "help 2":
 
         for(int i = 0; i < 7; i++)
         {
 
           player.sendMessage(page_2[i]);
+
+        }
+
+        event.setCancelled();
+
+      break;
+
+      case "help 3":
+
+        for(int i = 0; i < 7; i++)
+        {
+
+          player.sendMessage(page_3[i]);
+
+        }
+
+        event.setCancelled();
+
+      break;
+
+      case "help 4":
+
+        for(int i = 0; i < 7; i++)
+        {
+
+          player.sendMessage(page_4[i]);
+
+        }
+
+        event.setCancelled();
+
+      break;
+
+      case "help 5":
+
+        for(int i = 0; i < 7; i++)
+        {
+
+          player.sendMessage(page_5[i]);
+
+        }
+
+        event.setCancelled();
+
+      break;
+
+      case "help 6":
+
+        for(int i = 0; i < 7; i++)
+        {
+
+          player.sendMessage(page_6[i]);
 
         }
 
