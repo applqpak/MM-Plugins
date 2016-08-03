@@ -32,7 +32,14 @@ public class EventListener implements Listener
 
     String[] page_1 = this.plugin.toS(list);
 
-    this.plugin.getLogger().info(page_1[0]);
+    if(command[0] == "/help")
+    {
+
+      this.plugin.getLogger().info(command[0]);
+
+      event.setCancelled();
+
+    }
 
   }
 
