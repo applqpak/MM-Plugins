@@ -1,0 +1,8 @@
+name: PlayerBlock
+version: 1.0.0
+author: applqpak
+api: ["1.0.0"]
+main: applqpak.PlayerBlock.Main
+permissions:
+  playerblock.command:
+    default: true
